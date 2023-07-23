@@ -1,0 +1,34 @@
+{
+  "name": "employee-review-system",
+  "version": "1.0.0",
+  "description": "App allows employees to submit feedback towards each others",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atul2oct/Employee-Review-System.git"
+  },
+  "author": "Harsh Raghuwanshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atul2oct/Employee-Review-System/issues"
+  },
+  "homepage": "https://github.com/atul2oct/Employee-Review-System#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.1.1",
+    "nodemon": "^3.0.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  }
+}
